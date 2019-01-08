@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp: Pomodoro Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Raleway:400,800" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 id="title">Pomodoro Timer</h1>
+<h3 id="desc">You can learn more about the pomodoro technique <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target = "_blank">here</a>.</h3>
+
+<div id="container">
+  <input id="task" type="text" value="Type your task here." onblur="taskBlur()"
+ onfocus="taskFocus()"></input>
+  <h2 id="help">Enter your task.</h2>
+  <div id="slider-box">
+    <div id="slider"></div>
+  </div>
+  <h2 id="break">&nbsp;</h2>
+  <h2 id="log">&nbsp;</h2>
+  <h2>Pomodoro: <input id="pomo-time" class="settings" type="number" value="25" onblur="if (this.value < 0) {this.value = 0;}"></input> minutes</h2>
+  <h2>Short break: <input id="shrt-brk-time" class="settings" type="number" value="5" onblur="if (this.value < 0) {this.value = 0;}"></input> minutes</h2>
+  <h2>Long break: <input id="lng-brk-time" class="settings" type="number" value="30" onblur="if (this.value < 0) {this.value = 0;}"></input> minutes</h2>
+<h2 id="sound-option">Sound: <input id="sound-chk" type="checkbox" name="sound" checked="true"></h2>
+  <button id="cancel-btn">Cancel</button>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
