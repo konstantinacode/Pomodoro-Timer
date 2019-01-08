@@ -1,0 +1,95 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#title{
+  text-align: center;
+  margin: 24px auto;
+  font-size: 3.998em;
+  font-weight: 800;
+}
+
+#desc{
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#container {
+  width: 300px;
+  margin: 36px auto;
+  text-align: center;
+}
+
+#task {
+  padding-left: 6px;
+  font-size: 1.414em;
+  width: 294px;
+}
+
+
+#help{
+  margin: 48px 0;
+  font-size: 2em;
+}
+
+#slider-box {
+  height: 36px;
+  width: 100%;
+  background-color: grey;
+  border: 1px solid black;
+  margin-bottom: 12px;
+}
+
+#slider {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 16px;
+  width: 72px;
+  font-size: 16px;
+  background-color: gainsboro;
+  color: white;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+}
+
+#break{
+  margin-bottom: 12px;
+  font-size: 36px;
+  color: #B21E0E;
+}
+
+#log {
+  padding: 6px;
+  border: 1px solid black;
+  min-height: 24px;
+  margin-bottom: 36px;
+}
+
+.log-box {
+  width: 240px;
+  margin: 3px auto;
+  font-size: 1em;
+}
+
+.settings {
+  width: 36px;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+#cancel-btn {
+  background-color: #B21E0E;
+  border-style: none;
+  color: white;
+  font-size: 1em;
+  margin: 24px;
+  padding: 6px 12px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #title, #desc, #sound-option{
+    display: none;
+  }
+}
